@@ -6,4 +6,11 @@
         <attr name="ttextBgColor" format="color"></attr>
         <attr name="ttextSize" format="dimension|integer"></attr>
     </declare-styleable>
+
+    <declare-styleable name="CustomViewGroup">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
 </resources>
