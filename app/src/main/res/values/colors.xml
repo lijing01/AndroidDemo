@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <color name="lavenderblush">#FFF0F5</color><!--淡紫红 -->
+    <color name="mintcream">#F5FFFA</color><!--薄荷色 -->
+    <color name="darkgoldenrod">#B8860B</color><!--暗金黄色 -->
+</resources>

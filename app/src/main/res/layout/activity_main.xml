@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:trace="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tracelijing.androiddemo.MainActivity">
+
+<!--    <com.tracelijing.androiddemo.customview.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        trace:ttext="trace"
+        trace:ttextSize="16sp"
+        trace:ttextColor="@color/colorAccent"
+        trace:ttextBgColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:padding="20dp"/>-->
+    <com.tracelijing.androiddemo.customview.CustomViewGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/darkgoldenrod">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:layout_marginLeft="10dp"/>
+    </com.tracelijing.androiddemo.customview.CustomViewGroup>
+</RelativeLayout>

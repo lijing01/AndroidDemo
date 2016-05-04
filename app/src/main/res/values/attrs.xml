@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="ttext" format="string"></attr>
+        <attr name="ttextColor" format="color"></attr>
+        <attr name="ttextBgColor" format="color"></attr>
+        <attr name="ttextSize" format="dimension|integer"></attr>
+    </declare-styleable>
+</resources>
