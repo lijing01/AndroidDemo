@@ -5,13 +5,9 @@
     xmlns:trace="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.tracelijing.androiddemo.MainActivity">
 
-    <com.tracelijing.androiddemo.customview.CustomTextView
+    <!--<com.tracelijing.androiddemo.customview.CustomTextView
         android:id="@+id/custom_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,6 +38,25 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
-    </com.tracelijing.androiddemo.customview.CustomViewGroup>
+    </com.tracelijing.androiddemo.customview.CustomViewGroup>-->
 
+    <com.tracelijing.androiddemo.customview.MultiViewGroup
+        android:id="@+id/multi_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.tracelijing.androiddemo.customview.MultiViewGroup>
+
+    <Button
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pre"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pre"
+        android:text="next"/>
 </RelativeLayout>
